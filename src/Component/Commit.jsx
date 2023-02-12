@@ -5,7 +5,7 @@ const Commit = () => {
     <section className="max-w-screen-4xl -mt-10 px-10 2xl:px-56 bg-gray-100 mx-auto ">
       <div className=" relative mr-auto place-self-start  lg:col-span-7  font-semibold">
         <div className="  absolute bg-gray-300 w-40 h-40 border-green-900 opacity-50" />
-        <div class="absolute mt-10 left-3/4  xl:left-[60%] -ml-0.5 w-0.5 h-[40rem] bg-green-500"></div>
+        <div class="absolute mt-10 left-3/4  xl:left-[60%] -ml-0.5 w-0.5 h-[40rem] bg-green-500"/>
         <h1 className="text-gray-500 pt-20 px-5  text-black">
           Shipping Policy
         </h1>
@@ -32,57 +32,59 @@ const Commit = () => {
           />
         </a>
       </div>
-      {/* <section className="md:py-10 grid-cols-12 lg:mt-0  flex  justify-start  lg:col-span-5 lg:flex"> */}
-        <div className="md:py-10 grid-cols-12 lg:mt-0  flex  justify-start  lg:col-span-5 lg:flex">
-          <div className="bg-gray-200   max-w-xs md:p-5 border-b-[4px] border-green-400">
-            <h1 className="text-black text-lg mb-2 font-semibold">
-              Commitment is what transforms a promise into a reality.
-            </h1>
-            <ui className="text-gray-700 ">
-              Connect with NetworkTigers for in stock, fast delivery, quality
-              network equipment.
-            </ui>
-          </div>
-          {/* --------------------1st-------------------------------------------- */}
-          <div className=" bg-green-500 text-center w-[14rem] max-w-xs md:p-5 border-b-[4px] border-green-400">
-            <h1 className="text-white text-lg mb-2 font-semibold">
-              Over-Night Shipping options
-            </h1>
-            <ui className="text-gray-300 text-sm  ">
-              Connect with NetworkTigers for in stock, fast delivery, quality
-              network equipment.
-            </ui>
-          </div>
-        
+
+      <section className="md:py-10 grid-cols-12 hidden lg:mt-0  flex  justify-start  lg:col-span-5 lg:flex">
+        <div className="bg-gray-200   max-w-xs md:p-5 border-b-[4px] border-green-400">
+          <h1 className="text-black text-lg mb-2 font-semibold">
+            Commitment is what transforms a promise into a reality.
+          </h1>
+          <ui className="text-gray-700 ">
+            Connect with NetworkTigers for in stock, fast delivery, quality
+            network equipment.
+          </ui>
+        </div>
+        {/* --------------------1st-------------------------------------------- */}
+        <div className=" bg-green-500 text-center w-[14rem] max-w-xs md:p-5 border-b-[4px] border-green-400">
+          <h1 className="text-white text-lg mb-2 font-semibold">
+            Over-Night Shipping options
+          </h1>
+          <ui className="text-gray-300 text-sm  ">
+            Connect with NetworkTigers for in stock, fast delivery, quality
+            network equipment.
+          </ui>
+        </div>
+
         {/* --------------------2nd-------------------------------------------- */}
         <div className="-mt-20">
-        <div className="grid-cols-12   flex  justify-start  lg:col-span-5 lg:flex">
-          <div className=" bg-green-700  text-center w-[14rem] max-w-xs md:p-5 border-b-[4px] border-green-400">
-            <h1 className="text-white text-lg mb-2 font-semibold">
-              Over-Night Shipping options
-            </h1>
-            <ui className="text-gray-300 text-sm  ">
-              Connect with NetworkTigers for in stock, fast delivery, quality
-              network equipment. 
-            </ui>
-          </div>
-          {/* --------------------3rd-------------------------------------------- */}
-          <div className="-mt-20">
-          <div className="  bg-green-900 text-center w-[14rem] max-w-xs md:p-5 border-b-[4px] border-green-400">
-            <h1 className="text-white text-lg mb-2 font-semibold">
-              Over-Night Shipping options
-            </h1>
-            <ui className="text-gray-300 text-sm  ">
-              Connect with NetworkTigers for in stock, fast delivery, quality
-              network equipment.
-            </ui>
+          <div className="grid-cols-12   flex  justify-start  lg:col-span-5 lg:flex">
+            <div className=" bg-green-700  text-center w-[14rem] max-w-xs md:p-5 border-b-[4px] border-green-400">
+              <h1 className="text-white text-lg mb-2 font-semibold">
+                Over-Night Shipping options
+              </h1>
+              <ui className="text-gray-300 text-sm  ">
+                Connect with NetworkTigers for in stock, fast delivery, quality
+                network equipment.
+              </ui>
+            </div>
+            <div className="  absolute bg-gray-300 mt-16 ml-40 w-44 h-40 border-green-900 opacity-50" />
+            {/* --------------------3rd-------------------------------------------- */}
+            <div className="-mt-20">
+              <div className="  bg-green-900 text-center w-[14rem] max-w-xs md:p-5 border-b-[4px] border-green-400">
+                <h1 className="text-white text-lg mb-2 font-semibold">
+                  Over-Night Shipping options
+                </h1>
+                <ui className="text-gray-300 text-sm  ">
+                  Connect with NetworkTigers for in stock, fast delivery,
+                  quality network equipment.
+                </ui>
+              </div>
+            </div>
+            
           </div>
         </div>
-        </div>
-        </div></div>
-        {/* --------------------4th-------------------------------------------- */}
       </section>
-    // </section>
+      {/* --------------------4th-------------------------------------------- */}
+    </section>
   );
 };
 
